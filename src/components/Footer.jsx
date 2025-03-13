@@ -9,7 +9,7 @@ const Footer = () => {
         <aside>
           <div className='flex items-center gap-5 pb-5'>
             <img className='w-10 h-10 rounded-full' src={footerLogo} alt="" />
-            <h2 className='text-3xl font-black'>Detox</h2>
+            <h2 className='text-2xl md:text-3xl font-black'>Detox</h2>
           </div>
           <p className='text-xl'>
             ACME Industries Ltd.

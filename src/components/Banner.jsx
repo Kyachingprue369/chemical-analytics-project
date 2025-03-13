@@ -9,9 +9,9 @@ const Banner = () => {
         <div className="hero-content w-full justify-between flex-col lg:flex-row-reverse">
           <img
             src={chemical}
-            className=" chemical w-[400px] h-[400px] rounded-lg mt-12 shadow-2xl" />
+            className=" chemical w-[350px] h-[400px] rounded-lg mt-24 md:mt-16 shadow-amber-100 shadow-lg" />
           <div>
-            <h1 className="text-6xl leading-16 font-bold">Optimizing <br /> <span className='text-yellow-500 underline'>Chemical</span> Efficacy <br /> & Safety Standards </h1>
+            <h1 className="text-3xl md:text-6xl md:leading-16 font-bold">Optimizing <br /> <span className='text-yellow-500 underline'>Chemical</span> Efficacy <br /> & Safety Standards </h1>
             <p className="py-6">
               Ensuring compliance and safety through advanced analytics <br /> and expert consultation
             </p>
