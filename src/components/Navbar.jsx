@@ -14,7 +14,7 @@ const Navbar = () => {
   </div>
   return (
     <div className='relative'>
-      <div className="navbar fixed top-5 right-0 left-0 bg-white w-11/12 mx-auto rounded-2xl ">
+      <div className="navbar fixed top-5 right-0 left-0 bg-white border-2 border-[#188C99] w-11/12 mx-auto rounded-2xl ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -37,7 +37,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn bg-cyan-500 shadow-lg shadow-cyan-500/50 text-white font-bold">Login Now</a>
+          <a className="btn bg-cyan-500 shadow-lg shadow-cyan-500/50 text-white font-bold">Login</a>
         </div>
       </div>
     </div>
